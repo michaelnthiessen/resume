@@ -1,0 +1,244 @@
+
+/* ---------- Embed our fonts ----------- */
+@font-face {
+  font-family: "BebasNeue";
+  src: url("./BebasNeue.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./Quicksand_Book.otf") format("opentype");
+}
+
+/* ---------- Main elements ----------- */
+html {
+  position: relative;
+  top: -20px;
+  margin: 0;
+  padding: 0;
+  min-height: 600px;
+}
+
+body {
+  background-image: url("../img/squairy_light.png");
+  background-repeat: repeat;
+}
+
+/* ---------- Titles ----------- */
+h1, h2, h3, h5{
+  font-family: BebasNeue;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 85%;
+  color: white;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 36px;
+  line-height: 27px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-top: 0;
+  line-height: 22px;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: Quicksand;
+  color: #555;
+  line-height: 53px;
+}
+
+h5 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* ---------- Header and footer ----------- */
+header {
+  color: #DDD;
+  font-family: Quicksand;
+  font-size: 16px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/header.png");
+  background-repeat: repeat;/*
+  border-bottom: 1px solid #00bae8;*/
+}
+
+footer {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  background-image: url("../img/footer.png");
+  background-repeat: repeat;
+  border-bottom: 3px solid black;
+}
+
+/* ---------- Some text formatting for the header ----------- */
+a.current {
+  color: white;
+}
+
+.text-right {
+  text-align: right;
+  float: right;
+}
+
+.text-left {
+  text-align: left;
+  float: left;
+}
+
+.header-content {
+  height: 100%;
+}
+
+.title {/*
+  background-color: blue;*/
+  position: relative;
+  top: 25px;
+}
+
+.header-right p, .header-right a {
+  display: block;
+  text-align: right;
+}
+
+.contact {
+  position: relative;
+  top: 27px;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.subtitle {
+  position: relative;
+  top: -12px;
+}
+
+.subtitle strong, a {
+  color: #00bae8;
+  font-weight: normal;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+}
+
+.title a:hover {
+  text-decoration: none;
+}
+
+nav {
+  position: relative;
+  top: 120px;
+}
+
+/* ---------- Formatting for the content part of the page ----------- */
+.content-outer {
+  position: relative;
+  top: 0px;
+  min-height: 100%;
+  background-color: #FFF;
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #c8c8c8;
+}
+
+.content-inner {
+  position: relative;
+  left: -20px;
+  height: 100%;
+  min-height: 600px;
+  padding: 60px 0 130px 0;
+  font-family: Quicksand;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.content-inner a:hover {
+  text-decoration: none;
+  color: #007796;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.project img {
+  width: 300px;
+  height: 225px;
+}
+
+.img-polaroid {
+  width: 96%;
+  height: auto;
+}
+
+.content-inner > div {
+  margin-bottom: 60px;
+}
+
+.project {
+  margin-top: 20px;
+  position: relative;
+}
+
+.project a {
+  position: absolute;
+  bottom: 0;
+  line-height: 8px;
+}
+
+.project h3 {
+  margin-bottom: 20px;
+  color: #00BAE8;
+}
+
+article .row{
+  margin-top: 25px;
+}
+
+article .span10 {
+  margin-top: 20px;
+}
+
+.skills h5 {
+  position: relative;
+  left: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
