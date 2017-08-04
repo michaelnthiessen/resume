@@ -1,6 +1,18 @@
 # Resume
 This is my online resume-site, which contains a portfolio of projects I have worked on.
 
+## React Component Library
+Here are some GIFs of some components I have worked on recently.
+
+This is showing a sticky header and footer on a datatable.
+<img src="https://github.com/michaelnthiessen/resume/blob/master/unnamed.gif">
+
+This is showing various different states on that datatable.
+<img src="https://github.com/michaelnthiessen/resume/blob/master/unnamed-2.gif">
+
+I made this pagination component to be "dynamically" responsive. As it gets too narrow, it will render fewer page buttons.
+<img src="https://github.com/michaelnthiessen/resume/blob/master/unnamed-3.gif">
+
 ## Color Palette
 A simple color palette tool that I built in React a few months ago for fun. It will adjust adjust saturation and lightness in opposite directions to make the colors more natural (darker colors are more saturated).
 
